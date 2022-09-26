@@ -12,12 +12,24 @@
     height: 90px;
 }
 
+.left_nav,
+.right_nav {
+    width: 200px;
+    height: 80px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
 .debug .banner {
     height: 580px;
 }
 
+.row_portfolio {
+    background-color: blue;
+    height: 100px;
+}
+
 [class^="col-"] {
-    background-color: red;
+    border: 1px solid black;
     height: 200px;
 }
 
@@ -33,3 +45,6 @@
 }
 
 /*#endregion header*/
+
+
+@media screen {}
