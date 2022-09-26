@@ -7,16 +7,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 <link rel="stylesheet" href="./assets/style.css">  
 </head>
+
     <body class="debug">
 
         <header id="site_header" class=" text-white">
-            <div class="navbar d-flex justify-content-between align-content-center p-3">
-
+            <div class="navbar">
+                <div class="container justify-content-between align-content-center pt-3 pb-3">
                     <div class="left_nav"></div>
                     <div class="right_nav"></div>
-
+                </div>
             </div>
-            <div class="banner d-flex flex-column align-items-center">
+            <!-- /navbar -->
+
+            <div class="banner d-flex flex-column align-items-center w-lg-75 w-xxl-75">
 
                         <div>immagine</div>
                         <div class="start">testo sotto immagine</div>
@@ -27,11 +30,11 @@
         <!-- /site_header -->
 
         <main id="site_main">
-            <div class="container section_portfolio p4 w-75">
+            <div class="container section_portfolio p4 w-lg-75 w-xxl-75">
                 <div class="row portfolio justify-content-center">
                     <div class="col-4"></div>
                 </div>
-                <div class="row g-2">
+                <div class="row g-4">
                     <div class="col-12 col-lg-6 col-xxl-4"></div>
                     <div class="col-12 col-lg-6 col-xxl-4"></div>                    
                     <div class="col-12 col-lg-6 col-xxl-4"></div>                    
@@ -40,14 +43,26 @@
                     <div class="col-12 col-lg-6 col-xxl-4"></div>
                 </div>
             </div>
-            <div class="container-fluid section_about">
-                <div class="container w-50">
-                    <div class="row">
-                        <div class="col-12 col-lg-6 col-xxl-6 mt-5 mb-5"></div>
-                        <div class="col-12 col-lg-6 col-xxl-6 mt-5 mb-5"></div>
+        <!-- /section_portfolio -->
+
+            <div class="section_about ">
+                <div class="container w-50 ">
+                    <div class="row about justify-content-center pt-5">
+                        <div class="col-4"></div>
                     </div>
+                    <div class="row  pb-5">
+                        <div class="col-12 col-lg-6 col-xxl-6 mb-4 mb-lg-0 mb-xxl-0"></div>
+                        <div class="col-12 col-lg-6 col-xxl-6"></div>
+                    <div class="button_download d-flex justify-content-center mt-3">
+                           <div class="div">pulsante</div>                    
+                    </div>
+                    </div>
+
+                 
                 </div>
             </div>
+            <!-- /section_about -->
+
             <div class="container section_contact mt-5 mb-5 w-50">
                 <div class="row contact_me justify-content-center">
                     <div class="col-4"></div>
@@ -59,6 +74,8 @@
                     <div class="col-12"></div>
                 </div>
             </div>
+            <!-- /section_contact -->
+
         </main>
         <!-- /site_main -->
 
@@ -72,9 +89,13 @@
                     </div>
                 </div>
             </div>
+            <!-- /up_footer -->
+
             <div class="bottom_footer d-flex justify-content-center pt-3 pb-3">
                 <h4>testo</h4>
             </div>
+            <!-- /bottom_footer -->
+
         </div>
         <!-- /site_footer -->
 
