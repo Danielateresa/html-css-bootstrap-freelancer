@@ -8,29 +8,25 @@
 }
 
 /*#region debug*/
-.debug .navbar {
-    height: 90px;
-}
-
 .left_nav,
 .right_nav {
     width: 200px;
-    height: 80px;
-    border: 1px solid rgb(255, 255, 255);
+    height: 100px;
+    background-color: violet;
 }
 
 .debug .banner {
     height: 580px;
 }
 
-.row_portfolio {
+.portfolio {
     background-color: blue;
     height: 100px;
 }
 
 [class^="col-"] {
-    border: 1px solid black;
-    height: 200px;
+    background-color: violet;
+    height: 100px;
 }
 
 /*#endregion debug*/
@@ -40,11 +36,9 @@
     background-color: var(--fl-dark-blue);
 }
 
-.banner {
+.banner,
+.section_about {
     background-color: var(--fl-green);
 }
 
 /*#endregion header*/
-
-
-@media screen {}
