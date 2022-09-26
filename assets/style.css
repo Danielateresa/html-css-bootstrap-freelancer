@@ -16,7 +16,7 @@
 }
 
 .debug .banner {
-    height: 580px;
+    height: 200px;
 }
 
 .portfolio {
@@ -36,9 +36,25 @@
     background-color: var(--fl-dark-blue);
 }
 
+/*#endregion header*/
+
+/*#region common*/
 .banner,
 .section_about {
     background-color: var(--fl-green);
 }
 
-/*#endregion header*/
+
+
+
+
+/*#region footer*/
+.up_footer {
+    background-color: var(--fl-light-blue);
+}
+
+.bottom_footer {
+    background-color: var(--fl-dark-blue);
+}
+
+/*#endregion footer*/
