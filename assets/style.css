@@ -1,0 +1,35 @@
+:root {
+    --fl-green: #1ABC9C;
+    --fl-dark-blue: #2C3E50;
+    --fl-black: #333333;
+    --fl-white: #FFFFFF;
+    --fl-light-blue: #3A546D;
+
+}
+
+/*#region debug*/
+.debug .navbar {
+    height: 90px;
+}
+
+.debug .banner {
+    height: 580px;
+}
+
+[class^="col-"] {
+    background-color: red;
+    height: 200px;
+}
+
+/*#endregion debug*/
+
+/*#region header*/
+.navbar {
+    background-color: var(--fl-dark-blue);
+}
+
+.banner {
+    background-color: var(--fl-green);
+}
+
+/*#endregion header*/
