@@ -74,9 +74,11 @@ img {
     height: 3px;
 }
 
+.avatar {
+    width: 15rem;
+}
+
 /*#endregion banner*/
-
-
 
 /*#region footer*/
 .up_footer {
