@@ -8,9 +8,7 @@
 }
 
 /*#region debug*/
-.left_nav,
-.right_nav {
-    width: 200px;
+.debug #site_header {
     height: 100px;
     background-color: violet;
 }
@@ -19,12 +17,12 @@
     height: 200px;
 }
 
-.portfolio {
+.debug .portfolio {
     background-color: blue;
     height: 100px;
 }
 
-[class^="col-"] {
+.debug [class^="col"] {
     background-color: violet;
     height: 100px;
 }
@@ -44,7 +42,7 @@
     background-color: var(--fl-green);
 }
 
-
+/*#endregion common*/
 
 
 
