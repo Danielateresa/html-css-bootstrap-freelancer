@@ -8,24 +8,24 @@
 }
 
 /*#region debug*/
-/* .debug #site_header {
+.debug #site_header {
     height: 100px;
     background-color: violet;
-} */
+}
 
-/* .debug .banner {
+.debug .banner {
     height: 200px;
-} */
+}
 
 .debug .portfolio {
     background-color: blue;
     height: 100px;
 }
 
-/* .debug [class^="col"] {
+.debug [class^="col"] {
     background-color: violet;
     height: 100px;
-} */
+}
 
 /*#endregion debug*/
 
@@ -71,6 +71,10 @@ img {
     border-radius: 50%;
 }
 
+.title_size {
+    font-size: 60px;
+}
+
 /*#endregion utility*/
 
 /*#region header*/
@@ -88,10 +92,6 @@ img {
 /*#region banner*/
 .star_bar {
     height: 3px;
-}
-
-.avatar {
-    width: 15rem;
 }
 
 /*#endregion banner*/
