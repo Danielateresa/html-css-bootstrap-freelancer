@@ -8,14 +8,14 @@
 }
 
 /*#region debug*/
-.debug #site_header {
+/* .debug #site_header {
     height: 100px;
     background-color: violet;
-}
+} */
 
-.debug .banner {
+/* .debug .banner {
     height: 200px;
-}
+} */
 
 .debug .portfolio {
     background-color: blue;
@@ -29,6 +29,15 @@
 
 /*#endregion debug*/
 
+/*#region common*/
+.banner,
+.section_about {
+    background-color: var(--fl-green);
+}
+
+
+/*#endregion common*/
+
 /*#region header*/
 .navbar {
     background-color: var(--fl-dark-blue);
@@ -41,13 +50,15 @@
 
 /*#endregion header*/
 
-/*#region common*/
-.banner,
-.section_about {
-    background-color: var(--fl-green);
+/*#region banner*/
+.star_bar {
+    background-color: var(--fl-white);
+    height: 3px;
+    width: 3rem;
+
 }
 
-/*#endregion common*/
+/*#endregion banner*/
 
 
 
