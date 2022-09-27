@@ -55,6 +55,10 @@ img {
     background-color: var(--fl-dark-blue);
 }
 
+.fl_green {
+    background-color: var(--fl-green);
+}
+
 /*#endregion utility*/
 
 /*#region header*/
