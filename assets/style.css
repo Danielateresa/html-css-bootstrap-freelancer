@@ -22,10 +22,10 @@
     height: 100px;
 }
 
-.debug [class^="col"] {
+/* .debug [class^="col"] {
     background-color: violet;
     height: 100px;
-}
+} */
 
 /*#endregion debug*/
 
@@ -37,6 +37,25 @@
 
 
 /*#endregion common*/
+
+/*#region utility*/
+img {
+    max-width: 100%;
+}
+
+.c_black {
+    color: var(--fl-black);
+}
+
+.c_dark_blue {
+    color: var(--fl-dark-blue);
+}
+
+.fl_dark_blue {
+    background-color: var(--fl-dark-blue);
+}
+
+/*#endregion utility*/
 
 /*#region header*/
 .navbar {
@@ -52,10 +71,7 @@
 
 /*#region banner*/
 .star_bar {
-    background-color: var(--fl-white);
     height: 3px;
-    width: 3rem;
-
 }
 
 /*#endregion banner*/
