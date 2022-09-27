@@ -34,6 +34,11 @@
     background-color: var(--fl-dark-blue);
 }
 
+.nav-link {
+    color: var(--fl-white);
+    font-weight: bold;
+}
+
 /*#endregion header*/
 
 /*#region common*/
