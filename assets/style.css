@@ -51,12 +51,24 @@ img {
     color: var(--fl-dark-blue);
 }
 
+.c_green {
+    color: var(--fl-green);
+}
+
 .fl_dark_blue {
     background-color: var(--fl-dark-blue);
 }
 
 .fl_green {
     background-color: var(--fl-green);
+}
+
+.round_social {
+    width: 40px;
+    aspect-ratio: 1/1;
+    padding-top: 0.5rem;
+    border: 1px solid white;
+    border-radius: 50%;
 }
 
 /*#endregion utility*/
